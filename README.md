@@ -2,7 +2,7 @@
 
 This application is built using Ruby on Rails and React/Redux. It is connected to aws MySQL database.
 
-Explore the app in full at http://celmatixstore.herokuapp.com
+Explore the app in full at https://giantotter.herokuapp.com/
 
 ### Local Setup
 1. Git clone
