@@ -15,6 +15,7 @@ span, article, footer, time, small {
   box-sizing: inherit;
   background: transparent;
   list-style: none;
+  font-family: Raleway;
 }
 
 .pair{
