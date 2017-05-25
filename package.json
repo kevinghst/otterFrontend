@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack--watch"
+    "webpack": "webpack--watch",
+    "heroku-postbuild": "webpack --config webpack.config.prod.js"
   },
   "keywords": [],
   "author": "",
@@ -29,8 +30,5 @@
   "engines": {
     "node": "4.1.1",
     "npm": "2.1.x"
-  },
-  "scripts": {
-    "postinstall": "webpack"
   }
 }
