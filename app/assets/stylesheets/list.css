@@ -84,3 +84,10 @@ span, article, footer, time, small {
 input::-webkit-input-placeholder {
   color: 	#C0C0C0;
 }
+
+.loader{
+  font-size: 25px;
+  height: 40px;
+  text-align: center;
+  margin-top: 20px;
+}

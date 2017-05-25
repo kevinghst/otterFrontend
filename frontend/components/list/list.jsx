@@ -21,9 +21,7 @@ export default class List extends React.Component {
       number = parseInt(e.target.value);
     }
 
-    this.setState({
-      minCount: number
-    });
+    this.setState({ minCount: number });
   }
 
   render(){
@@ -43,7 +41,7 @@ export default class List extends React.Component {
         </li>
       );
     } else {
-      content = ( <div>wtf</div> );
+      content = (<div className="loader">Loading...</div>);
     }
 
     return(
